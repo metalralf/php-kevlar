@@ -1,0 +1,244 @@
+body
+{
+    margin: 0;
+    padding: 0;
+	background: #0b0c10;
+	font-family: Arial;
+}
+
+header
+{
+	width: 100%;
+	float: left;
+	background: #202833;
+	text-align: center;
+	margin-bottom: 15px;
+}
+	header h1
+	{
+		font-size: 18px;
+		margin: 15px;
+		margin-bottom: 25px;
+		border-bottom: 1px solid rgba( 255, 255, 255, 0.05 );
+		padding-bottom: 5px;
+		color: #c5c6c8;
+	}
+	header nav
+	{
+		float: left;
+		width: 100%;
+	}
+		header nav ul
+		{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			text-align: center;
+		}
+			header nav ul li
+			{
+				display: inline-block;
+			}
+				header nav ul li a
+				{
+					display: inline-block;
+					padding: 15px 30px;
+					text-transform: uppercase;
+					text-decoration: none;
+					font-size: 16px;
+					color: #cccccc;
+					transition: background 0.3s, color 0.3s;
+				}
+				header nav ul li a:hover
+				{
+					background: #0b0c10;
+					color: #ffffff;
+					text-decoration: none;
+				}
+
+main
+{
+	float: left;
+	width: 100%;
+	margin-bottom: 50px;
+}
+	main section
+	{
+		margin: 25px auto;
+		width: 95%;
+		max-width: 1000px;
+		color: #cccccc;
+	}
+	main section.box
+	{
+		background: #eeeeee;
+		color: #6f6f6f;
+	}
+		main section p
+		{
+			margin: 15px 0;
+			line-height: 23px;
+		}
+	main section.box
+	{
+		padding: 15px 30px;
+		box-sizing: border-box;
+		background: #eeeeee;
+		color: #6f6f6f;
+	}
+	main section.msg
+	{
+		background: #66fcf1;
+		font-size: 18px;
+		color: #3aaba6;
+	}
+	main section.msg.success
+	{
+		background: #b1f5e0;
+		color: #68c0a2;
+	}
+	main section.msg.error
+	{
+		background: #fac2ca;
+		color: #dc8078;
+	}
+	main section.inputs
+	{
+		background: #c5c6c8;
+	}
+		
+main section h2
+{
+	width: 100%;
+	text-align: center;
+	padding: 10px 30px;
+	margin-bottom: 30px;
+	background: #46a29f;
+	font-size: 18px;
+	color: #e4fbf9;
+	font-weight: normal;
+	box-sizing: border-box;
+}	
+main section.box h2
+{
+	margin: -15px -30px;
+	margin-bottom: 30px;
+	box-sizing: content-box;
+}
+	
+main section form
+{
+	width: 100%;
+	text-align: center;
+}
+	main section form .field
+	{
+		margin-bottom: 20px;
+	}
+	main section form label
+	{
+		width: 100%;
+		text-align: center;
+		display: inline-block;
+		font-size: 18px;
+		color: #666666;
+		margin-bottom: 3px;
+	}
+	main section form input, 
+	main section form select,
+	main section form textarea
+	{
+		width: 90%;
+		text-align: center;
+		display: inline-block;
+		padding: 7px;
+		border-radius: 5px;
+		font-size: 15px;
+		color: #999;
+		border: 1px solid #aaaaaa;
+	}
+	main section form textarea
+	{
+		resize: none;
+		height: 70px;
+		text-align: left;
+	}
+	main section form .check input
+	{
+		width: 20px;
+		height: 20px;
+		margin-right: 5px;
+	}
+	main section form .check label
+	{
+		width: auto;
+	}
+	main section form input.button
+	{
+		cursor: pointer;
+		background: #46a29f;
+		color: #e4fbf9;
+		text-transform: uppercase;
+		font-size: 16px;
+		padding: 10px 15px;
+		max-width: 250px;
+		margin-top: 20px;
+		transition: background 0.3s, color 0.3s;
+	}
+	main section form input.button:hover
+	{
+		background: #247572;
+		color: #ffffff;
+	}
+	main section form .short
+	{
+		max-width: 250px;
+	}
+	main section form .normal
+	{
+		max-width: 500px;
+	}
+	::placeholder
+	{
+		color: #bbb;
+	}
+	:-ms-input-placeholder
+	{
+		color: #bbb;
+	}
+	::-ms-input-placeholder
+	{
+		color: #bbb;
+	}
+	
+table
+{
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #aaaaaa;
+	background: #f9f9f9;
+}
+	table thead th
+	{
+		background: #dfdfdf;
+	}
+	table td, table th
+	{
+		border: 1px solid #aaaaaa;
+		padding: 7px;
+		color: #6f6f6f;
+	}
+	table tbody tr:hover td, table tbody tr:hover th
+	{
+		background: #ffffff;
+	}
+
+a
+{
+	color: #00a7f6;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
